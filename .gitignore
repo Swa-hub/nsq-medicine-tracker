@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# Downloaded and generated data (re-create with python -m nsq all / demo)
+data/raw/
+data/interim/
+data/warehouse/
+data/exports/
+data/DATASET.txt
+data_demo/
+
+# keep the reference lists
+!data/reference/

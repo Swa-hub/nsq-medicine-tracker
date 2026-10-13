@@ -1,0 +1,19 @@
+# Python 3.10 or newer
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+pdfplumber>=0.11
+pandas>=2.2
+pyarrow>=15
+numpy>=1.26
+duckdb>=1.0
+rapidfuzz>=3.6
+scikit-learn>=1.4
+reportlab>=4.0        # only for the sample-data generator
+streamlit>=1.45
+plotly>=5.20
+pytest>=8.0
+
+# Optional
+# prefect>=3.0        # orchestration (flows/monthly_flow.py)
+# anthropic>=0.40     # LLM fallback for pages without tables (python -m nsq parse --llm)
